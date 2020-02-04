@@ -1,0 +1,17 @@
+.Header {
+    background: #666;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.TracksWrapper {
+    margin: 2em;
+    padding: 0.5em;
+    background-color: #ccc;
+    box-shadow: 5px 10px 18px #333;
+    border-radius: 7px;
+}

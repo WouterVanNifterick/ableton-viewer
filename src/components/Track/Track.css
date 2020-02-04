@@ -1,0 +1,59 @@
+.TrackWrapper {
+    background-color: #eee;
+    padding: 0;
+    border-bottom: 1px solid #000;
+    margin: 0;
+    display: flex;
+    cursor: default;
+    user-select: none;
+}
+
+.GroupIndex {
+    width: 40px;
+    opacity: 0.5;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.TrackName {
+    flex: 0.75;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: middle;
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 0.5em;
+    white-space: nowrap;
+    border-left: 2px solid #666;
+    user-select: text;
+}
+
+.Clips {
+    flex: 4;
+    background-color: #ccc;
+    overflow: hidden;
+    border: none;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .TrackWrapper {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.GridLine {
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    min-width: 1px;
+    border-left: 1px solid #999;
+    opacity: 0.5;
+}
+

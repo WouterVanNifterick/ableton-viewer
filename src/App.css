@@ -1,0 +1,14 @@
+html {
+    background-color: #666;
+}
+
+.App {
+    text-align: center;
+}
+
+#InputContainer {
+    padding: 1em;
+    background-color: #bbb;
+    display: block;
+    font-size: 24px;
+}
